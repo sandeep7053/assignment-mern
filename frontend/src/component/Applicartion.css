@@ -1,0 +1,111 @@
+
+
+.first-container{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.container-flex-item{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.first-container h1{
+  font-size: max(1vw,22px);
+  font-weight: 400;
+  margin-top: 10px;
+}
+.user-admin{
+  display: flex;
+  width: 400px;
+  margin: auto;
+  justify-content: space-around;
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.container{
+  padding-top: 3px;
+  margin-top: 20px;
+}
+
+.container-form-action{
+  width: 500px;
+  margin: auto;
+}
+.inputdata{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.labeldata{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+input{
+  outline: none;
+  width: 70%;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #c9c9c9;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slot {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.slot:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: #4CAF50;
+  color: white;
+}
+.time-container{
+  width: 500px;
+  margin: auto;
+
+}
+.bookslot{
+  margin-top: 30px;
+  padding: 10px;
+}
+h3,h4{
+  margin-top: 20px;
+  font-size: max(2vw,26px);
+  font-weight: 400;
+}
+p{
+  font-size: 22px;
+  font-weight: 300;
+}
+.button{
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  font-size: 15px ;
+  cursor: pointer;
+}
+
